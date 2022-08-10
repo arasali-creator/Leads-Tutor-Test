@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;0,900;1,200;1,300;1,500;1,600&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-brand img {
+  height: 55px;
+  width: 224px;
+  object-fit: contain;
+}
+.paragraphs {
+  color: #2848ce;
+  font-size: 21px;
+}
+h1 {
+  font-size: 48px;
+  text-align: left;
+  letter-spacing: 1.02px;
+  color: #000000;
+  opacity: 1;
+  font-weight: 600;
+}
+.list-text li {
+  margin-right: 25px;
+  color: #000000;
+}
+.navbar-nav .nav-link {
+  color: black;
+  font-weight: 500;
+}
+.long-p {
+  font-size: 17px;
+  line-height: 31px;
+  letter-spacing: 0.32px;
+}
+.list-text-2 {
+  font-size: 16px;
+  letter-spacing: 0.32px;
+  color: #605c5c;
+  opacity: 1;
+  font-weight: 600;
+}
+.nav-item img {
+  width: 16px;
+}
+.nav-item-2 {
+  margin-top: 10px;
+  margin-left: 37px;
+}
+.btn-1 {
+  background: #001aff 0% 0% no-repeat padding-box;
+  box-shadow: 3px 6px 23px #4659ff85;
+  border-radius: 40px;
+  opacity: 1;
+  color: white;
+  padding: 12px 66px 14px 54px;
+}
+.btn-2 {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 40px;
+  border: 3px solid #4b5cef;
+  opacity: 1;
+  color: rgb(0, 0, 0);
+  padding: 12px 66px 14px 54px;
+}
+.btn-3 {
+  border: 3px solid #4b5cef;
+  border-radius: 40px;
+  opacity: 1;
+  padding: 0px 52px 0px 41px;
+  margin-left: 63px;
+}
+.btn-4 {
+  background: #001aff 0% 0% no-repeat padding-box;
+  border-radius: 40px;
+  opacity: 1;
+  color: white;
+  padding: 5px 35px 7px 31px;
+}
+.banner-img img:nth-child(1) {
+    object-fit: contain;
+    width: 360px;
+    height: 427px;
+    position: absolute;
+    left: 879px;
+    top: 163px;
+}
+.banner-img img:nth-child(2){
+    object-fit: contain;
+  width: 461px;
+  height: 461px;
+  position: absolute;
+  left: 827px;
+  top: 145px;
+}
+.banner-h::before{
+    content: url('../assest/Banner-images/Group\ 551.png');
+        position: absolute;
+        right: 376px;
+        z-index: 1;
+        top: 415px;
+}
+.banner-h::after{
+    content: url('../assest/Banner-images/Group\ 552.png');
+    position: absolute;
+    left: 809px;
+    z-index: 1;
+    top: 108px;
+}
+.banner-left::before{
+    content: url('../assest/Banner-images/Group\ 553.png');
+    position: absolute;
+    left: 1134px;
+    z-index: 1;
+    top: 150px;
+}
+.banner-left::after{
+    content: url('../assest/Banner-images/Group\ 554.png');
+    position: absolute;
+    left: 1134px;
+    z-index: 1;
+    top: 433px;
+}
+.text-box {
+  padding: 0px 40px 40px 0px;
+  background: #ebf1ff;
+  border-radius: 19px;
+  opacity: 1;
+  width: 503px;
+  height: 293px;
+  margin: 33px 12px 10px 12px;
+}
+.img-box img {
+  width: 98px;
+  height: 79px;
+  object-fit: contain;
+  margin-left: -6px;
+}
+.text-content h3 {
+  padding-top: 5px;
+  padding-left: 4px;
+  font-size: 30px;
+  letter-spacing: 0.44px;
+  color: #000000;
+  opacity: 1;
+}
+.text-content p {
+  font-size: 25px;
+  letter-spacing: 0.39px;
+  color: #000000;
+  opacity: 1;
+}
+.text-top {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 150px;
+  font-weight: 600;
+  letter-spacing: -0.12px;
+  margin-bottom: 53px;
+}
+.text-top-sati {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 90px;
+  font-weight: 600;
+  letter-spacing: -0.12px;
+  margin-bottom: 112px;
+}
+.text-top-sati-1 {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 90px;
+  font-weight: 600;
+  letter-spacing: -0.12px;
+  margin-bottom: 63px;
+}
+footer {
+  box-shadow: 0px -12px 47px #9f9f9f24;
+  padding-top: 20px;
+}
+.box-1 img {
+  width: 77px;
+  height: 81px;
+  object-fit: contain;
+}
+.box-1 p {
+  font-size: 21px;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  margin-right: 35px;
+}
+.card img {
+  object-fit: contain;
+  width: 204px;
+  height: 244px;
+}
+.carousel-control-prev-icon {
+  background-image: url("../assest/our-partner/Group\ 585.png");
+}
+.carousel-control-next-icon {
+  background-image: url("../assest/our-partner/Group\ 584.png");
+}
+.form-containor {
+  background-image: url("../assest/form-section/Rectangle\ 265.png");
+  margin-bottom: 170px;
+    margin-top: 222px;
+}
+.form-containor h2 {
+  padding: 63px 0px 64px 54px;
+  color: white;
+}
+.form-containor h2::before {
+  content: url("../assest/form-section/Group\ 563.png");
+  position: absolute;
+  left: 483px;
+  top: 3332px;
+}
+
+.footer-icon img {
+  margin-right: 36px;
+  width: 21px;
+  height: 24px;
+  object-fit: contain;
+}
+.back-form {
+  background-image: url("../assest/form-section/Rectangle\ 272.png");
+}
+form {
+  position: relative;
+  left: 24px;
+  padding: 15px;
+}
+form .form-control {
+  padding: 0px 4px;
+}
+.col-form-label {
+  font-size: 10px;
+  color: white;
+}
+.form-check-label {
+  font-size: 10px;
+  color: white;
+}
+form h5 {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+  margin-left: -60px;
+}
+form-b::after {
+  content: url("../assest/form-section/Mask\ Group\ 2.png");
+  position: relative;
+  bottom: 957px;
+  background-repeat: no-repeat;
+  background-position: 56% 44%;
+}
+.psedue-image::before {
+  content: url("../assest/how\ we\ work/Group 37.png");
+  position: absolute;
+  left: 1176px;
+  top: 2167px;
+}
+
+.before-after-c::before {
+  content: url("../assest/our-partner/Rectangle\ 259.png");
+  position: absolute;
+    left: -145px;
+    top: 2578px;
+}
+.before-after-c::after {
+  content: url("../assest/our-partner/Path\ 3134.png");
+  position: absolute;
+  left: 0px;
+  bottom: -2529px;
+
+}
+.text-box-t {
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+  border-radius: 70px 0px;
+  opacity: 1;
+  padding: 20px;
+}
+.p-imge img {
+  width: 296px;
+  height: 368px;
+  object-fit: contain;
+}
+.p-ty {
+  font-size: 20px;
+  line-height: 38px;
+}
+.text-box-t:nth-child(2) {
+  font-size: 15px !important;
+}
+/* .up {
+  background-image: url("../assest/carsosal\ image/Path 3139.png");
+  position: absolute;
+  left: 579px;
+  bottom: 215px;
+} */
+.form-background {
+  background-image: url("../assest/form-section/Mask\ Group\ 2.png");
+  padding: 285px 15px 5px 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  margin-top: -200px;
+}
+/* .down {
+  background-image: url("../assest/carsosal\ image/Group 590.png");
+  position: absolute;
+  left: -567px;
+  opacity: 1;
+  z-index: 1;
+} */
+.like {
+  display: flex;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 41px;
+  opacity: 1;
+  width: 271px;
+  position: absolute;
+  right: 106px;
+  top: 1671px;
+}
+.like img:nth-child(1) {
+  position: absolute;
+  right: -13px;
+  top: -34px;
+}
+@media (max-width: 768px) {
+  .psedue-image::before {
+    display: none;
+  }
+  .banner-img img {
+    position: sticky;
+  }
+  .list-text {
+    flex-direction: column;
+  }
+  .text-box {
+    padding: 0px 40px 40px 0px;
+    background: #ebf1ff;
+    border-radius: 19px;
+    opacity: 1;
+    width: 330px;
+    height: 200px;
+    margin: 33px 12px 10px 12px;
+  }
+  .img-box img {
+    width: 53px;
+    height: 54px;
+    object-fit: contain;
+    margin-left: 0px;
+  }
+  .text-content h3 {
+    font-size: 20px;
+  }
+  .text-content p {
+    font-size: 14px;
+    color: #000000;
+    opacity: 1;
+  }
+  .text-top-sati {
+    font-size: 30px;
+    margin-top: 54px;
+    margin-bottom: 32px;
+  }
+  .box-1 img {
+    width: 50px;
+  }
+  .box-1 p {
+    font-size: 15px;
+  }
+  .card:not(:first-child) {
+    display: none;
+  }
+  .btn-1 {
+    padding: 12px 29px 14px 25px;
+    font-size: 12px;
+  }
+  .btn-3 {
+    padding: 1px 14px 0px 13px;
+    font-size: 12px;
+  }
+  .btn-2 {
+    padding: 1px 34px 0px 33px;
+    font-size: 12px;
+  }
+  .text-top {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .text-top-sati-1 {
+    font-size: 30px;
+    margin-top: 48px;
+    margin-bottom: 39px;
+  }
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 30px;
+  }
+  .card:not(:first-child) {
+    display: none;
+  }
+}
